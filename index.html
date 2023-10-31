@@ -11,15 +11,102 @@
     <div class="menu_side">
         <h1>Playlist</h1>
         <div class="playlist">
-        <h4><span></span>PLaylist</h4>
-        <h4><span></span>PLaylist</h4>
-        <h4><span></span>PLaylist</h4>
+        <h4 class="active"><i class="fa-sharp fa-solid fa-music"> </i>&nbsp; Playlist</h4>
+        <h4 ><i class="fa-sharp fa-solid fa-music"> </i>&nbsp; Last Listening</h4>
+        <h4 ><i class="fa-sharp fa-solid fa-music"> </i>&nbsp; Recommended</h4>
 
         </div>
-    </div>
-    <div class="song_side"></div>
-    <div class="master_play"></div>
-</header>
+        <div class="menu_song">
+            <li class="songItem">
+                <span>01</span>
+                <img src="img/1.jpg" alt="Alan">
+                <h5>
+                    On My Way
+                    <div class="subtitle">Alan Walker</div>
+                </h5>
+                <i class="fa-sharp playListPlay fa-solid fa-circle-play" id="6"></i>
+            </li>
+            <li class="songItem">
+                <span>02</span>
+                <img src="img/1.jpg" alt="Alan">
+                <h5>
+                    On My Way
+                    <div class="subtitle">Alan Walker</div>
+                </h5>
+                <i class="fa-sharp playListPlay fa-solid fa-circle-play" id="6"></i>
+            </li>
+            <li class="songItem">
+                <span>03</span>
+                <img src="img/1.jpg" alt="Alan">
+                <h5>
+                    On My Way
+                    <div class="subtitle">Alan Walker</div>
+                </h5>
+                <i class="fa-sharp playListPlay fa-solid fa-circle-play" id="6"></i>
+            </li>
+            <li class="songItem">
+                <span>04</span>
+                <img src="img/1.jpg" alt="Alan">
+                <h5>
+                    On My Way
+                    <div class="subtitle">Alan Walker</div>
+                </h5>
+                <i class="fa-sharp playListPlay fa-solid fa-circle-play" id="6"></i>
+            </li>
+            <li class="songItem">
+                <span>05</span>
+                <img src="img/1.jpg" alt="Alan">
+                <h5>
+                    On My Way
+                    <div class="subtitle">Alan Walker</div>
+                    
+                </h5>
+                <i class="fa-sharp playListPlay fa-solid fa-circle-play" id="6"></i>
+            </li>
+            <li class="songItem">
+                <span>06</span>
+                <img src="img/1.jpg" alt="Alan">
+                <h5>
+                    On My Way
+                    <div class="subtitle">Alan Walker</div>
+                </h5>
+                <i class="fa-sharp playListPlay fa-solid fa-circle-play" id="6"></i>
+            </li>
+        </div>
 
+
+
+    </div>
+
+
+    <div class="song_side"></div>
+
+
+    <div class="master_play">
+        <div class="wave">
+            <div class="wave1"></div>   
+            <div class="wave1"></div>   
+            <div class="wave1"></div>
+        </div>  
+        <img src="img/1.jpg" alt="Alan">
+        <h5>On My Way <br>
+            <div class="subtitle">Alan Walker</div>
+           
+        </h5>
+        <div class="icon">
+            <i class="fa-sharp fa-solid fa-backward"></i>
+            <i class="fa-sharp fa-solid fa-play"></i>
+            <i class="fa-sharp fa-solid fa-forward"></i>
+        </div>
+        <span id="currentStart">0:00</span>
+        <div class="bar">
+            <input type="range" id="seek" min="0" value="0" max="100">
+            <div class="bar" id="bar2"></div>
+            <div class="dot"></div>
+        </div>
+        <span id="currentEnd">0:00</span>
+    </div>
+</header>
+<script src="https://kit.fontawesome.com/ee729fb2d7.js" crossorigin="anonymous"></script>
 </body>
 </html>
